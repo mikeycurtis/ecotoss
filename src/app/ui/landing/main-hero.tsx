@@ -31,7 +31,7 @@ function LeftArea() {
         San Diego
       </p>
       <p className="mt-4 text-black">
-        Our water-repellent paper bags are designed for San Diego's composting
+        Our water-repellent paper bags are designed for San Diego&apos;s composting
         system, ensuring strength and durability. They are the perfect solution
         and size for your kitchen pails.
       </p>

@@ -14,17 +14,6 @@ import {
   Button,
 } from "@nextui-org/react";
 
-// Map of links to display in the side navigation.
-// Depending on the size of the application, this would be stored in a database.
-const links = [
-  { name: "Home", href: "/dashboard" },
-  {
-    name: "Invoices",
-    href: "/dashboard/invoices",
-  },
-  { name: "Customers", href: "/dashboard/customers" },
-];
-
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
@@ -43,7 +32,7 @@ export default function NavBar() {
       </NavbarContent>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         {menuItems.map((item, index) => (
-          <NavbarItem>
+          <NavbarItem key={`${item}-${index}`}>
             <Link className="text-stone" href="#">
               {item}
             </Link>
