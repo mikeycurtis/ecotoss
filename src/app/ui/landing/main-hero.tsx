@@ -25,18 +25,18 @@ export default function MainHero() {
 function LeftArea() {
   return (
     <div className="w-full h-full px-6 md:pl-40 pt-16 md:h-full flex flex-col items-start justify-center">
-      <p className="text-black text-4xl text-left">
+      <h1 className="text-black text-4xl text-left">
         Organic Waste <br />
         Bags For a <span className="text-lightgreen">Greener</span> <br />
         San Diego
-      </p>
-      <p className="mt-4 text-black">
+      </h1>
+      <p className="text-black pt-10 text-xl">
         Our water-repellent paper bags are designed for San Diego&apos;s composting
         system, ensuring strength and durability. They are the perfect solution
         and size for your kitchen pails.
       </p>
-      <div className="flex justify-content-end">
-        <button className="flex-1 bg-blue-200 w-48 h-14 mt-5">Order Now</button>
+      <div className="flex w-full align-end justify-end pt-10">
+        <button className="bg-lightgreen w-48 h-14">Order Now</button>
       </div>
     </div>
   );
@@ -44,7 +44,7 @@ function LeftArea() {
 
 function RightArea() {
   return (
-    <div className="w-full h-auto flex flex-col items-start justify-center px-6 md:px-20 pt-14 pb-40">
+    <div className="w-full h-auto flex flex-col items-start justify-center px-6 md:px-20 pt-14 pb-40 mb-10">
       <div className="flex flex-col items-start">
         <Image
           src={mainHeroImage}
