@@ -3,11 +3,16 @@ import compostableImage from "@images/compostable.png";
 
 export default function BioplasticsHero() {
   return (
+<<<<<<< HEAD
     <div
       id="bioplastics-hero"
       className="border border-none w-screen h-auto bg-cover bg-center bg-lightbrown lg:flex"
     >
       <div className="features flex-1 w-40 h-40 mt-20 md:ml-40">
+=======
+    <div className="border border-none w-screen h-auto bg-cover bg-center bg-lightbrown lg:flex">
+      <div className="features flex-1 w-auto md:w-40 h-auto md:h-40 md:ml-40 mx-4 pt-10">
+>>>>>>> c4b59c18877afbbebd2cd65b73642f1a6f82ef3e
         <h1 className="text-cream text-4xl pb-6">
           No Bioplastics: In Accordance with San Diego
         </h1>
@@ -22,12 +27,10 @@ export default function BioplasticsHero() {
           their composting facilities.
         </p>
       </div>
-      <div className="image w-auto h-auto mt-0 md:mx-40">
+      <div className="image w-200 h-200 md:w-450 md:h-450 mt-0 md:mx-40 align-center justify-center flex">
         <Image
           src={compostableImage}
           alt="Water proof paper bags"
-          width={450}
-          height={450}
           className="rounded-[50%]"
         />
       </div>

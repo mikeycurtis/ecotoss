@@ -4,7 +4,7 @@ import macroDropsImage from "@images/macrowaterdrops.jpg";
 export default function WaterRepellentHero() {
   return (
     <div className="border border-none w-screen h-auto bg-cover bg-center bg-lightgreen lg:flex relative pb-14">
-      <div className="image bg-lightgreen w-auto h-auto mt-0 md:mx-40">
+      <div className="image bg-lightgreen w-auto h-auto md:mx-40">
         <Image
           src={macroDropsImage}
           alt="Water proof paper bags"
@@ -12,7 +12,7 @@ export default function WaterRepellentHero() {
         />
       </div>
 
-      <div className="features flex-1 bg-lightgreen w-40 h-auto md:mt-20 md:mr-40">
+      <div className="features flex-1 bg-lightgreen mx-4 w-auto pt-10 md:w-40 h-auto md:mt-20 md:mr-40">
         <h1 className="text-cream text-4xl pb-6">
           Water-Repellent: Keeping You and Your Bins Dry
         </h1>
