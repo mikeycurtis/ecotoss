@@ -33,7 +33,18 @@ export default function NavBar() {
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         {menuItems.map((item, index) => (
           <NavbarItem key={`${item}-${index}`}>
-            <Link className="text-stone" href="#">
+            <Link
+              className="text-stone"
+              href="#"
+              onClick={(e) => {
+                e.preventDefault(); // Prevent default link behavior
+                const section1Element =
+                  document.getElementById("bioplastics-hero");
+                if (section1Element) {
+                  section1Element.scrollIntoView({ behavior: "smooth" }); // Scroll to section1 if it exists
+                }
+              }}
+            >
               {item}
             </Link>
           </NavbarItem>

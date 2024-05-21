@@ -8,7 +8,7 @@ export default function Page() {
       <NavBar />
       <MainHero />
       <WaterRepellentHero />
-      <BioplasticsHero />
+      {/* <BioplasticsHero /> */}
     </>
   );
 }

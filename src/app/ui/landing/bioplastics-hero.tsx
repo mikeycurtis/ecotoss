@@ -3,7 +3,10 @@ import compostableImage from "@images/compostable.png";
 
 export default function BioplasticsHero() {
   return (
-    <div className="border border-none w-screen h-auto bg-cover bg-center bg-lightbrown lg:flex">
+    <div
+      id="bioplastics-hero"
+      className="border border-none w-screen h-auto bg-cover bg-center bg-lightbrown lg:flex"
+    >
       <div className="features flex-1 w-40 h-40 mt-20 md:ml-40">
         <h1 className="text-cream text-4xl pb-6">
           No Bioplastics: In Accordance with San Diego
